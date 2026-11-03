@@ -1,0 +1,59 @@
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Test, coverage, and type-checker output
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.mypy_cache/
+.pyright/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and local runtime output
+*.log
+logs/
+
+# Machine-learning artifacts and downloaded weights
+*.pt
+*.pth
+*.onnx
+*.h5
+*.safetensors
+runs/
+wandb/
+
+# Local datasets and generated processing output
+data/raw/
+data/processed/
+data/labels/
+data/corpus/
+
+# Local databases and IDE/editor files
+*.db
+*.sqlite
+*.sqlite3
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini

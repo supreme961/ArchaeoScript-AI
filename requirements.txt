@@ -1,0 +1,35 @@
+# Computer vision and image processing
+opencv-python>=4.8,<5
+Pillow>=10,<12
+
+# Deep learning and YOLOv8
+torch>=2.1,<3
+torchvision>=0.16,<1
+torchaudio>=2.1,<3
+ultralytics>=8.0,<9
+
+# Vector similarity search
+faiss-cpu>=1.7.4,<2
+
+# Data processing, analysis, and visualization
+numpy>=1.24,<3
+pandas>=2.0,<3
+scikit-learn>=1.3,<2
+matplotlib>=3.7,<4
+seaborn>=0.12,<1
+
+# OCR support
+pytesseract>=0.3.10,<1
+
+# API backend
+fastapi>=0.104,<1
+uvicorn[standard]>=0.24,<1
+python-multipart>=0.0.6,<1
+
+# Web interface
+streamlit>=1.28,<2
+
+# Database and configuration
+SQLAlchemy>=2.0,<3
+psycopg2-binary>=2.9,<3
+python-dotenv>=1.0,<2
